@@ -108,4 +108,3 @@ C:\Users\Marvin\Desktop\Online-Store\Online-Store\bin\Debug\netcoreapp3.1\zh-Han
 C:\Users\Marvin\Desktop\Online-Store\Online-Store\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Marvin\Desktop\Online-Store\Online-Store\obj\Debug\netcoreapp3.1\Online-Store.csproj.CoreCompileInputs.cache
 C:\Users\Marvin\Desktop\Online-Store\Online-Store\obj\Debug\netcoreapp3.1\Online-Store.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Marvin\Desktop\Online-Store\Online-Store\obj\Debug\netcoreapp3.1\Razor\Views\Store\Details.cshtml.g.cs
