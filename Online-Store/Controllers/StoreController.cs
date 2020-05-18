@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Online_Store.Controllers
@@ -12,13 +13,15 @@ namespace Online_Store.Controllers
         {
             return "Index";
         }
-        public string Browse()
+        public string Browse(string category)
         {
-            return "Browse";
+            string message = "Showing category" + category;
+            return message;
         }
-        public string Details()
+        public string Details(int id)
         {
-            return "Details";
+            string message = "Showing details" + id;
+            return message;
         }
     }
 }
