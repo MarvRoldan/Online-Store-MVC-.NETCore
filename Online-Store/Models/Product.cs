@@ -5,8 +5,11 @@ using System.Threading.Tasks;
 
 namespace Online_Store.Models
 {
-    public class Category
+    public class Product
     {
+        public string Id { get; set; }
         public string Name { get; set; }
+        public string Price { get; set; }
+        public string Photo { get; set; }
     }
 }
