@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using Microsoft.AspNetCore.Mvc;
+using Online_Store.Models;
+using Online_Store.Controllers;
 
 namespace Online_Store.Controllers
 {
@@ -18,10 +20,10 @@ namespace Online_Store.Controllers
             string message = "Showing category" + category;
             return message;
         }
-        public string Details(int id)
+        public ActionResult Details(int id)
         {
-            string message = "Showing details" + id;
-            return message;
+            var Item = new Item { Title = "Item" + id };
+            return View();
         }
     }
 }
